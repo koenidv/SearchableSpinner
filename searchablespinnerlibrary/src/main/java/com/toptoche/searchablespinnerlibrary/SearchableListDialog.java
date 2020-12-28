@@ -100,8 +100,9 @@ public class SearchableListDialog extends DialogFragment implements
         alertDialog.setTitle(strTitle);
 
         final AlertDialog dialog = alertDialog.create();
-        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams
-                .SOFT_INPUT_STATE_HIDDEN);
+
+        rootView.findViewById(R.id.search).requestFocus();
+
         return dialog;
     }
 

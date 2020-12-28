@@ -1,5 +1,5 @@
 # SearchableSpinner 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SearchableSpinner-green.svg?style=true)](https://android-arsenal.com/details/1/3272)
+Forked with a few changes:
 
 Spinner with searchable items.
 
