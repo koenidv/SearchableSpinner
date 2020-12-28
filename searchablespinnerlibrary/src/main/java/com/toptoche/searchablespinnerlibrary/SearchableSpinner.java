@@ -127,6 +127,10 @@ public class SearchableSpinner extends Spinner implements View.OnTouchListener,
         }
     }
 
+    public void select(int index) {
+        setSelection(index);
+    }
+
     public void setTitle(String strTitle) {
         _searchableListDialog.setTitle(strTitle);
     }

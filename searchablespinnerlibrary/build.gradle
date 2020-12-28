@@ -63,7 +63,9 @@ bintray {
     }
 }
 
-group = "com.toptoche.searchablespinner"
+
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.koenidv'
 
 dependencies {
 }

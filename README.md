@@ -1,5 +1,6 @@
 # SearchableSpinner 
 Forked with a few changes:
+- Automatically open soft keyboard
 
 Spinner with searchable items.
 
